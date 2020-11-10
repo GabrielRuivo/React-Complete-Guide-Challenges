@@ -16,9 +16,9 @@ class Challenge02 extends Component {
    };
 
    handleRemove = index => {
-      const value = this.state.inputValue.split('');
-      value.splice(index, 1);
-      this.setState({inputValue: value.join('')});
+      const RemoveValue = this.state.inputValue.split('');
+      RemoveValue.splice(index, 1);
+      this.setState({inputValue: RemoveValue.join('')});
    };
 
    render() {
